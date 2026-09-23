@@ -14,7 +14,7 @@ This article maps the operational logic of HUMINT as it applies to corporate, fi
 
 ---
 
-## 1. Why HUMINT Works
+## Why HUMINT Works
 
 Before the methodology, the underlying logic. Effective HUMINT operations rest on five principles that are worth understanding explicitly, because each one shapes every decision made in the field.
 
@@ -42,7 +42,7 @@ These principles do not operate sequentially. They are concurrent — running to
 
 ---
 
-# 2. Phase I — Target Selection and Deep Profiling
+# Phase I — Target Selection and Deep Profiling
 
 ## Identifying the Right Target
 
@@ -80,7 +80,7 @@ The profile is not a snapshot. It is a living document, updated continuously as 
 
 ---
 
-# 3. Phase II — Vulnerability Identification and Exploitation
+# Phase II — Vulnerability Identification and Exploitation
 
 Every target has vulnerabilities. The operator's task is to identify which ones are present, how accessible they are, and which offer the most reliable leverage.
 
@@ -128,7 +128,7 @@ The principle remains constant: find what the target needs, or fears, and positi
 
 ---
 
-# 4. Phase III — Approach and Initial Contact
+# Phase III — Approach and Initial Contact
 
 ## The Engineered Coincidence
 
@@ -164,7 +164,7 @@ The operator arrives pre-endorsed.
 
 ---
 
-# 5. Phase IV — Building Rapport and Trust
+# Phase IV — Building Rapport and Trust
 
 ## Mirroring
 
@@ -200,7 +200,7 @@ The asks, when they come, feel like a natural exchange within an established rel
 
 ---
 
-# 6. Phase V — Manipulation and Psychological Influence
+# Phase V — Manipulation and Psychological Influence
 
 ## Cognitive Bias Exploitation
 
@@ -230,7 +230,7 @@ A target driven by pride responds differently from one driven by fear of exposur
 
 ---
 
-# 7. Phase VI — Information Extraction and Tasking
+# Phase VI — Information Extraction and Tasking
 
 ## The Gradual Escalation
 
@@ -262,7 +262,7 @@ At this stage, the operator is managing an asset rather than cultivating a sourc
 
 ---
 
-# 8. Phase VII — Control and Asset Management
+# Phase VII — Control and Asset Management
 
 ## Continuous Profile Updating
 
@@ -292,7 +292,7 @@ Isolation is rarely achievable completely, but even partial isolation reduces th
 
 ---
 
-# 9. Integration with Other Intelligence Disciplines
+# Integration with Other Intelligence Disciplines
 
 HUMINT rarely operates alone.
 
