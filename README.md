@@ -1,39 +1,63 @@
-![fot-readme](docs/assets/images/0-1.png)
+![Project cover](https://i.pinimg.com/1200x/39/35/6b/39356b377fa981646e9b74d566fff960.jpg)
 
 # OSINT Patterns
 
-`OSINT Patterns` is a structured knowledge base with practical materials on open-source intelligence.  
-The repository combines methodology and topic-specific guides so OSINT can be applied as an analytical process, not just a set of tools.
+`OSINT Patterns` is a knowledge base of open-source intelligence methods.
+The materials are Markdown guides under `docs/`. They share one sequence: a precise question, a testable hypothesis, targeted verification, correlation across independent sources, and a conclusion that states its confidence and its limits.
 
-Main directions in this project:
+Current guides:
 
-- Email OSINT
-- GEOINT
-- HUMINT
-- Sock Puppet / Legend Building
+- [Email OSINT](docs/email-osint/email-osint-methodology.md) — an investigation that starts from one address
+- [GEOINT](docs/geoint/geoint-tools.md) — visual intelligence and geolocation
+- [HUMINT](docs/humint/humint-art-of-deception.md) — human-source collection and influence
+- [Sock puppet](docs/sock-puppet/sock-puppet-legend-building.md) — pseudonymous research, threat model, and evidence handling
 
-## Repository Structure
+## Repository structure
 
 ```text
 .
 ├── README.md
-├── docs/
-│   ├── email-osint/
-│   │   └── email-osint-pattern-full.pdf
-│   ├── geoint/
-│   │   └── geoint-tools.md
-│   ├── humint/
-│   │   └── humint-art-of-deception.md
-│   └── sock-puppet/
-│       └── sock-puppet-legend-building.md
+└── docs/
+    ├── assets/
+    │   └── images/
+    │       ├── 0-1.png    # README cover
+    │       ├── 1-1.png    # HUMINT cover
+    │       └── 2-1.png    # GEOINT cover
+    ├── email-osint/
+    │   └── email-osint-methodology.md
+    ├── geoint/
+    │   └── geoint-tools.md
+    ├── humint/
+    │   └── humint-art-of-deception.md
+    └── sock-puppet/
+        └── sock-puppet-legend-building.md
 ```
 
 ## Topics
 
-- Email OSINT: [`docs/email-osint/email-osint-pattern-full.pdf`](docs/email-osint/email-osint-pattern-full.pdf)
-- GEOINT Tools: [`docs/geoint/geoint-tools.md`](docs/geoint/geoint-tools.md)
-- HUMINT: [`docs/humint/humint-art-of-deception.md`](docs/humint/humint-art-of-deception.md)
-- Sock Puppet: [`docs/sock-puppet/sock-puppet-legend-building.md`](docs/sock-puppet/sock-puppet-legend-building.md)
+### Email OSINT
+
+[Email OSINT: How to Build an Investigation from a Single Address](docs/email-osint/email-osint-methodology.md)
+
+Takes one address through local-part and domain analysis, mailbox validation, the provider ecosystem, linked services, breach data, and public mentions, then correlation and a confidence rating. Passive lookups are separated from semi-active SMTP checks and active registration or recovery checks. The same path is read as defense: aliases, breach monitoring, and corporate mail hygiene. Researcher OPSEC is part of the method.
+
+### GEOINT
+
+[GEOINT Tools: The Practical Environment of Visual Intelligence](docs/geoint/geoint-tools.md)
+
+A working set for visual intelligence: Google Maps, Google Earth, and Bing; OpenStreetMap; satellite archives and change over time; elevation models and QGIS; street panoramas; image, metadata, and video analysis; weather archives and solar position. The worked example, from an unknown photograph to a location, is observation, hypothesis, independent checks, and contradiction testing.
+
+### HUMINT
+
+[HUMINT: The Art of Deception in Human Intelligence Collection](docs/humint/humint-art-of-deception.md)
+
+Human-source collection in corporate, financial, and business contexts: why it works, how a target is selected and profiled, how vulnerabilities are assessed, and how approach, rapport, influence, extraction, and control follow one another. OSINT and SOCMINT supply the initial profile. CYBINT and TECHINT are treated as adjacent disciplines that can reinforce a human operation.
+
+### Sock puppet
+
+[Sock Puppets in OSINT: What Actually Gets Investigators Burned](docs/sock-puppet/sock-puppet-legend-building.md)
+
+A workflow for pseudonymous access: write the objective and a short threat model, observe without an account when public sources already answer the question, keep any identity minimal, separate it along the paths that actually burn investigators, collect the least intrusive evidence first, and store records a second person can check. A privacy pseudonym and an observer account are distinguished from a deceptive persona. The persona is treated as a high-risk step that needs authorization and legal review.
 
 ---
 
@@ -132,5 +156,8 @@ The list of services is not the point. It never was.
 This material, and all content in this repository, is intended for educational and research purposes only. The methodologies described here are used by journalists, security researchers, investigators, and analysts working within legal and ethical frameworks.
 
 The author does not condone the use of these methods for harassment, stalking, unauthorised surveillance, doxxing, or any activity that violates applicable law, platform terms of service, or the privacy rights of individuals. All research should be conducted responsibly. You are solely responsible for complying with the laws and ethical standards of your jurisdiction.
+
+
+
 
 
